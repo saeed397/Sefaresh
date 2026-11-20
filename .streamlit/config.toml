@@ -1,0 +1,18 @@
+# Streamlit configuration for the strategy app.
+# Place this file at: .streamlit/config.toml  (inside a folder named .streamlit next to app.py)
+
+[theme]
+base = "dark"
+primaryColor = "#F0B90B"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1D24"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+headless = true
+runOnSave = false
+maxUploadSize = 50
+
+[browser]
+gatherUsageStats = false
